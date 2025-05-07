@@ -11,7 +11,7 @@ function TweetBox() {
         <AccountCircleIcon className='icon'/>
         <input placeholder="What's happening" type='text'></input>
         </div>
-        <Button>Tweet</Button>
+        <Button className="tweetBox__tweetButton">Tweet</Button>
       </form>
     </div>
   )
